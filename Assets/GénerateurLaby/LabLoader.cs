@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
-
+// cette classe hérite du MonoBehaviour afin qu'elle puisse etre assimilé par notre GameObject
+// c'est à dire que lorsqu'on cliquera sur le bouton "play", ce sera le Labloader qui va etre compilé
 public class LabLoader : MonoBehaviour {
     // attribut correspondant à la ligne et la colonne du labyrinthe
     public int LabLig, LabCol;
